@@ -1,0 +1,32 @@
+{
+  "name": "qa_sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress run",
+    "cypressChrome": "cypress run --browser=chrome",
+    "cypressFirefox": "cypress run --browser=firefox",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "reportChrome": "run-s reportChrome:*",
+    "reportChrome:merge": "mochawesome-merge 'cypress/results/*.json' > mochawesomeChrome.json",
+    "reportChrome:generate": "marge -o Reports -f mochawesomeChrome.html mochawesomeChrome.json",
+    "reportFirefox": "run-s reportFirefox:*",
+    "reportFirefox:merge": "mochawesome-merge 'cypress/results/*.json' > mochawesomeFirefox.json",
+    "reportFirefox:generate": "marge -o Reports -f mochawesomeFirefox.html mochawesomeFirefox.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "wait-on": "^5.2.0"
+  },
+  "devDependencies": {
+    "cypress": "^5.3.0",
+    "cypress-xpath": "^1.6.0",
+    "mochawesome": "^6.1.1",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.1.0",
+    "npm-run-all": "^4.1.5"
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "defaultCommandTimeout": 8000,
+    "pageLoadTimeout": 300000,
+    "watchForFileChanges": false,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+      "reportDir": "cypress/results",
+      "overwrite": false,
+      "html": false,
+      "json": true
+    }
+}
