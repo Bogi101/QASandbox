@@ -34,7 +34,7 @@ There are several ways to run tests, depending on how you want to run it:
     BAT files are created to run tests and create reports all in one:<br>
     <b>run cypress Chrome.bat</b> - this will run tests in Chrome browser and create report in Reports folder in project root directory<br>
     <b>run cypress Firefox.bat</b> - this will run tests in Firefox browser and create report in Reports folder in project root directory<br>
-    <b>run cypress All.bat</b> - this will run tests in Chrome and Firefox (one after another). Reports will be created in Reports folder in project root directory separetly                                       for each browser<br>
+    <b>run cypress All.bat</b> - this will run tests in Chrome and Firefox (one after another). Reports will be created in Reports folder in project root directory separately                                       for each browser<br>
 
 2) <b>NPM run from CMD:</b>
 
@@ -48,5 +48,5 @@ There are several ways to run tests, depending on how you want to run it:
 
 3) <b>Cypress Test Runner:</b>
 
-    You can run any test suite separetly with any browser and any configuration with Cypress Test Runer.<br>
+    You can run any test suite separately with any browser and any configuration with Cypress Test Runer.<br>
     In cmd go to your project folder and run <b>npx cypress open</b>.<br>
