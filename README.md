@@ -27,7 +27,7 @@ Documentation folder can be found in project root folder.<br>
 
 <b>RUN CYPRESS TESTS:</b>
 
-There are several ways to run tests, depending on how you wan't to run it:
+There are several ways to run tests, depending on how you want to run it:
 
 1) <b>BAT FILES:</b>
 
